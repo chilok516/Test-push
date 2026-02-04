@@ -1,0 +1,1 @@
+const { chromium } = require('playwright'); (async () => { const browser = await chromium.launch({headless:true}); const page = await browser.newPage(); await page.goto('https://github.com/chilok516/Test-push'); await page.waitForTimeout(3000); await page.screenshot({path:'/tmp/repo-success.png', fullPage:true}); console.log('Repo screenshot saved'); await browser.close(); })();

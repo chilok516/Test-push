@@ -1,0 +1,1 @@
+// Workspace auto check-in script\n// TODO: implement with puppeteer or playwright\nconsole.log('Workspace check-in stub');\n
